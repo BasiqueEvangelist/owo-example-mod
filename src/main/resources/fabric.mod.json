@@ -20,11 +20,15 @@
   "entrypoints": {
     "main": [
       "net.fabricmc.example.ExampleMod"
+    ],
+    "fabric-datagen": [
+      "net.fabricmc.example.datagen.ExampleDataGeneratorEntrypoint"
     ]
   },
   "mixins": [
     "modid.mixins.json"
   ],
+  "accessWidener": "modid.accesswidener",
 
   "depends": {
     "fabricloader": ">=0.13.3",
